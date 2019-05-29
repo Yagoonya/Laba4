@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="LOAD" Content="LOAD" HorizontalAlignment="Left" Margin="370,256,0,0" VerticalAlignment="Top" Width="175" Height="52" Click="Button_Click_2" FontSize="36" FontFamily="Arial Black"/>
+        <Button x:Name="CLEAR" Content="CLEAR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="372" Margin="370,183,0,0" Height="68" Click="Button_Click_1" FontSize="48" FontFamily="Arial Black"/>
+        <Button x:Name="SAVE" Content="SAVE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="192" Margin="550,256,0,0" Height="52" RenderTransformOrigin="0.522,2.29" Click="Button_Click_3" FontSize="36" FontFamily="Arial Black"/>
+        <ListBox x:Name="LB" HorizontalAlignment="Left" Height="288" Margin="42,20,0,0" VerticalAlignment="Top" Width="260" FontSize="36" FontFamily="Arial Black"/>
+        <TextBox x:Name="TB" HorizontalAlignment="Left" Height="90" Margin="370,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="372" TextChanged="TextBox_TextChanged" FontFamily="Arial Black" FontSize="48"/>
+        <Button x:Name="ADD" Content="ADD" HorizontalAlignment="Left" VerticalAlignment="Top" Width="372" Margin="370,115,0,0" Height="63" Click="Button_Click" FontSize="48" FontFamily="Arial Black"/>
+
     </Grid>
 </Window>
